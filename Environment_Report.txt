@@ -1,0 +1,73 @@
+Command:
+whoami
+
+Output:
+adityakumar
+
+Explanation:
+The whoami command displays the username of the currently logged-in user.
+
+------------------------------------------------
+
+Command:
+groups
+
+Output:
+staff everyone localaccounts _appserverusr admin _appserveradm _appstore _lpadmin _lpoperator _developer _analyticsusers com.apple.access_ftp com.apple.access_screensharing com.apple.access_ssh com.apple.access_remote_ae com.apple.sharepoint.group.1
+
+Explanation:
+The groups command displays all groups to which the current user belongs.
+
+------------------------------------------------
+
+Command:
+echo $SHELL
+
+Output:
+/bin/zsh
+
+Explanation:
+This command displays the default shell currently being used.
+------------------------------------------------
+
+Command:
+pwd
+
+Output:
+/Users/adityakumar/Desktop/Staff-Graded-Assignment-1/Question1
+
+Explanation:
+The pwd command displays the current working directory.
+
+------------------------------------------------
+
+Command:
+ls -la
+
+Output:
+total 8
+drwxr-xr-x  3 adityakumar  staff   96 28 Jun 10:17 .
+drwxr-xr-x@ 8 adityakumar  staff  256 28 Jun 10:24 ..
+-rw-r--r--@ 1 adityakumar  staff  910 28 Jun 10:30 Environment_Report.txt
+
+Explanation:
+The ls -la command lists all files and directories, including hidden files, along with detailed permissions and ownership information.
+
+------------------------------------------------
+
+Command:
+ping -c 4 google.com
+
+Output:
+PING google.com (192.178.174.101): 56 data bytes
+64 bytes from 192.178.174.101: icmp_seq=0 ttl=109 time=262.686 ms
+64 bytes from 192.178.174.101: icmp_seq=1 ttl=109 time=179.891 ms
+64 bytes from 192.178.174.101: icmp_seq=2 ttl=109 time=408.446 ms
+64 bytes from 192.178.174.101: icmp_seq=3 ttl=109 time=323.749 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 179.891/293.693/408.446/83.642 ms
+
+Explanation:
+The ping command checks network connectivity by sending four packets to Google's server.
